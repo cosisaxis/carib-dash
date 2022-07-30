@@ -11,28 +11,28 @@ const Navbar = () => {
 
 
   return (
-    <div className='max-w-[1640px] mx-auto flex justify-between items-center p-4'>
+    <div className='max-w-[1640px] mx-auto flex justify-between items-center p-4 bg-blue-100'>
         {/* left side */}
         <div  className='flex items-center'>
             <div onClick={()=> setSideBar(!sideBar)} className='cursor-pointer'>
                 <AiOutlineMenu size={30} />
             </div>
-            <h1 className='text-2xl sm:text-3xl lg:text-4xl px-2'>
-                Sea <span className='font-bold'>Shack</span>
+            <h1 className='text-2xl sm:text-3xl lg:text-4xl px-2 text-yellow-400'>
+                Sea <span className='font-bold text-blue-400'>Shack</span>
             </h1>
-            <div className='hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]'>
+            {/* <div className='hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]'>
                 <p className='bg-black text-white rounded-full p-2'>Delivery</p>
                 <p className='p-2'>Pickup</p>
-            </div>
+            </div> */}
         </div>
         {/* middle */}
-        <div className='bg-gray-200 rounded-full flex items-center px-2 w-[200px] sm:w-[400px] lg:w-[500px]'>
+        {/* <div className='bg-gray-200 rounded-full flex items-center px-2 w-[200px] sm:w-[400px] lg:w-[500px]'>
             <AiOutlineSearch  size={25} />
             <input className='bg-transparent p-2 w-full focus:outline-none' type="text" placeholder='search' />
-        </div>
+        </div> */}
 
         {/* right */}
-        <button className='bg-black text-white hiddden md:flex items-center p-4 rounded-full'>
+        <button className='bg-blue-400 border-blue-400 text-white hiddden md:flex items-center p-4 rounded-full'>
             <BsFillCartFill size={20} className='' /> 
         </button>
         {/* menu for mobile versions */}
@@ -48,8 +48,8 @@ const Navbar = () => {
           size={30}
           className='absolute right-4 top-4 cursor-pointer'
            />
-           <h2 className='text-2xl p-4'>
-            Sea <span className='font-bold'>Shack</span>
+           <h2 className='text-2xl p-4 text-yellow-400'>
+            Sea <span className='font-bold text-blue-400'>Shack</span>
            </h2>
            <nav>
             <ul className='flex flex-col p-4 text-gray-800'>

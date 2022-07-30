@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cards = () => {
   return (
-    <div className='max-w-[1640px] mx-auto p-4 py-12 grid md:grid-cols-3 gap-6'>
+    <div className='max-w-[1640px] mx-auto p-4 py-12 grid md:grid-cols-3 gap-6 bg-blue-100'>
         
         <div className='rounded-xl relative'>
         {/* Overlay */}
