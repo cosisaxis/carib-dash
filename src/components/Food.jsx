@@ -17,6 +17,7 @@ const Food = () => {
             <button className="m-1 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white">shrimp</button>
             <button className="m-1 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white">lobster</button>
             <button className="m-1 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white">conch</button>
+            <button className="m-1 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white">tuna</button>
           </div>
         </div>
         {/* filter price */}
